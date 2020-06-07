@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scoped CSS Variables and JS</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <script type="application/javascript" src="main.js"></script>
+</head>
+<body>
+  <div class='info'>
+    <h2>Update CSS Variables with <span class='hl'>JS</span></h2>
+    <div class="controls">
+      <ul></ul>
+      <label for="spacing">🌟 Spacing:</label>
+      <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+
+      <label for="blur">🌟 Blur:</label>
+      <input id="blur" type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+
+      <label for="base">🌟 Base Color:</label>
+      <input id="base" type="color" name="base" value="#515f76">
+    </div>
+  </div>
+
+  <div class="gallery">
+    <img src="https://source.unsplash.com/Y8lCoTRgHPE/500x300">
+    <img src="https://source.unsplash.com/phIFdC6lA4E/500x300">
+    <img src="https://source.unsplash.com/GWoLvxxjSzs/500x300">
+    <img src="https://source.unsplash.com/eluzJSfkNCk/500x300">
+  </div>
+</body>
+</html>
