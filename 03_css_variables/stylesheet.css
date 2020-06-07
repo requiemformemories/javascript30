@@ -1,3 +1,9 @@
+:root {
+    --base: #515f76;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
 body {
     margin: 0;
 }
@@ -23,4 +29,11 @@ h2 {
 
 img {
     margin: 5px;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.hl {
+    color: var(--base)
 }
